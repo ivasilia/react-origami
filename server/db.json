@@ -1,0 +1,7 @@
+{
+  "posts": [
+      { "id": 1, "content": "Once upon a time in America.", "author": "Coppola"},
+      { "id": 2, "content": "The merchant of Venice.", "author": "Froppola"},
+      { "id": 3, "content": "Mohammed and Charlemagne.", "author": "Druppola"}
+  ]
+}
