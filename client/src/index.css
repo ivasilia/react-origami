@@ -28,11 +28,12 @@ nav .listItem:not(:first-child) {
   border-top: 2px solid #ffa000;
 }
 
-nav .listItem:hover {
+nav .listItem:hover:not(:first-child) {
   border-top: none;
   border-bottom: 2px solid #ffa000;
   font-weight: bold;
 }
+
 
 aside .listItem {
   display: block;
@@ -57,6 +58,7 @@ aside .listItem:hover {
   border-left: none;
   border-right: none;
   font-weight: bold;
+  cursor: pointer;
   border-top: 2px solid #234465;
   border-bottom: 2px solid #234465;
   color: #ffa000;

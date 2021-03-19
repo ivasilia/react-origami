@@ -2,6 +2,7 @@ import style from './Menu.module.css';
 import MenuItem from './MenuItem';
 
 const Menu = () => {
+    console.log(style.menu);
     return (
         <aside className={style.menu}>
             <ul>
