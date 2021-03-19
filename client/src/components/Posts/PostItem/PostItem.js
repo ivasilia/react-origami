@@ -5,6 +5,7 @@ const PostItem = ({ content, author }) => {
     console.log(content);
     return (
         <div className={style.post}>
+            <img src="/blue-origami-bird.png" alt="white-origami"></img>
             <p className={style.description}>
                 <span>{content}</span>
             </p>

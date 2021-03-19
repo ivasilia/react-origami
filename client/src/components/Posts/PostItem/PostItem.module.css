@@ -1,4 +1,12 @@
-.description {
+.post {
+    width: 100%;
+    height: auto;
+    border: 1px solid #234465;
+    margin-bottom: 3%;
+    border-radius: 4px;
+}
+
+.post .description {
     word-wrap: break-word;
     padding: 0.5%;
     font-style: italic;
